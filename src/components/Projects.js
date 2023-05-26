@@ -6,7 +6,7 @@ export default function Projects() {
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
     <div className="container px-5 py-10 mx-auto text-left lg:px-40">
     <div>
-      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white font-raleway">
              Projects
       </h1>
     </div>

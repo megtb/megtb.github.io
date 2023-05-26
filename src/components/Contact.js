@@ -3,10 +3,10 @@ import React from "react";
 export default function Contact() {
 
   return (
-    <section id="contact" >
+    <section id="contact">
       <div className="container px-5 py-10 mx-auto text-left lg:px-40">
         <div className="text-left mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white font-raleway mb-4">
             Contact
           </h1>
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
