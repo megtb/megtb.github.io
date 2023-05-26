@@ -9,7 +9,9 @@ export default function About() {
             About
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Meg Bickerstaff is a full-stack web developer who graduated from the <a href="https://www.gracehopper.com/">Grace Hopper program</a> at <a href="https://www.fullstackacademy.com">Fullstack Academy</a>, where she learned the PERN stack and principles of modern web design.  Her background is in human services and the humanities, and she's spent the last 12+ years working as a therapist with adults, adolescents, children, and families.  
+            I'm a full-stack web developer who graduated from the <a href="https://www.gracehopper.com/">Grace Hopper program</a> at <a href="https://www.fullstackacademy.com">Fullstack Academy</a>, where I learned the PERN stack and principles of modern web design.  My background is in human services and the humanities, and I've spent the last 12+ years working as a therapist with adults, adolescents, children, and families.  
+            <br/>
+            I'm moving into tech because I'm eager for new challenges and want to put my relationship-building skills to work in a project-based, team-oriented environment.  
           </p>
         </div>
       </div>

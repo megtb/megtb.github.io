@@ -10,7 +10,7 @@ export default function Projects() {
              Projects
       </h1>
     </div>
-         <div className="flex flex-col w-full mb-20">
+      <div className="flex flex-col w-full mb-20">
             {projects.map((project) => (
               <section>
                 <div className="flex relative">
@@ -19,32 +19,32 @@ export default function Projects() {
                   className="relative w-1/2 inset-0 object-contain m-8"
                   src={project.image}
                 />
-      <div class="p-6">
-        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
-          {project.subtitle}
-      </h2>
-      <div class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50 hover:bg-indigo-500">
-        <a href={project.link}>{project.title}</a>
-      </div>
-        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-          {project.description}
-        </p>
-        <a
-          type="button"
-          class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full"
-          href={project.github}>
-            Project Github
-        </a>
-        {project.youtube && 
+        <div class="p-6">
+          <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
+            {project.subtitle}
+          </h2>
+          <div class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50 hover:bg-indigo-500">
+            <a href={project.link}>{project.title}</a>
+          </div>
+          <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+            {project.description}
+          </p>
           <a
-          type="button"
-          class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full"
-          href={project.youtube}>
-            Video Walkthrough
-        </a>
-        }
+            type="button"
+            class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full"
+            href={project.github}>
+              Project Github
+          </a>
+            {project.youtube && 
+              <a
+                type="button"
+                class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full"
+                href={project.youtube}>
+                  Video Walkthrough
+              </a>
+            }
+          </div>
       </div>
-    </div>
   </section>
   ))}
   </div>
